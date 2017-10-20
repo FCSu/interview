@@ -2,7 +2,7 @@ def isPerfectSquare(num):
 	start = 1
 	end = num
 	while start <= end:
-		mid = (start + end) / 2
+		mid = (start + end) // 2
 		target = mid ** 2
 		if target == num:
 			return True
